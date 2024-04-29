@@ -2,8 +2,9 @@
    "report": [
       {
          "id": 1,
-         "name": "Josep Doe",
-         "description": "Dear, there is traffic on Higuereta Oval. Please warn nearby drivers not to come this way.",
+         "id-user": "2",
+         "type":"infringement",
+         "description": "Speeding violation, I was going 156km/h",
          "dateTime": {
             "date": "2024-03-10",
             "time": "10:25:00"
@@ -11,8 +12,9 @@
       },
       {
          "id": 2,
-         "name": "Arnold Smith",
-         "description": "Paseo de Republica Avenue is free this time.",
+         "id-user": "2",
+         "type":"accident",
+         "description": "expressway closed for works",
          "dateTime": {
             "date": "2024-03-27",
             "time": "13:40:00"
@@ -20,11 +22,22 @@
       },
       {
          "id": 3,
-         "name": "Whitney Houston",
-         "description": "There was an accident between Javier Prado Av. and Aviacion Av. Please take precautions.",
+         "id-user": "3",
+         "type":"shipment",
+         "description": "a dog ate the package",
          "dateTime": {
             "date": "2024-04-05",
             "time": "09:55:00"
+         }
+      },
+      {
+         "id": 4,
+         "id-user": "3",
+         "type":"technical",
+         "description": "I put cooking oil in the car and it doesn't start",
+         "dateTime": {
+            "date": "2024-04-15",
+            "time": "15:55:49"
          }
       }
    ]
