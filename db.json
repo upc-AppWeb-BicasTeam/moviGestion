@@ -58,7 +58,8 @@
   "shipment": [
     {
       "id": 1,
-      "name": "Josep Doe",
+      "id-user": "2",
+      "destiny":"Callao, Av Pedro espadaro 2568",
       "description": "The package to be delivered is a 40-inch smart TV.",
       "dateTime": {
         "date": "2024-04-25",
@@ -68,7 +69,8 @@
     },
     {
       "id": 2,
-      "name": "Arnold Doe",
+      "id-user": "2",
+      "destiny":"Villa el salvador, Av.Pastor sevilla 598",
       "description": "Delivery of a sound system. Be careful when lowering it.",
       "dateTime": {
         "date": "2024-04-17",
@@ -78,7 +80,8 @@
     },
     {
       "id": 3,
-      "name": "Whitney Doe",
+      "id-user": "3",
+      "destiny":"Chorrillos, av. Lavalle  568",
       "description": "Package with hardware elements for a gamer pc.",
       "dateTime": {
         "date": "2024-03-18",
